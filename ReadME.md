@@ -10,8 +10,8 @@ Body
 Head 링크 등 참조
 Body 안에 -> 모든 content-> 모든 html 소스
 
-1. p태그
+1. p태그<br>
    -> paragraph 문장,문단 등 작성 할때 쓰는 태그
 
-2. h1~h6태그
+2. h1-h6태그<br>
    -> h1~h6 제목 등(숫자가 커질수록 크기는 작아진다)
