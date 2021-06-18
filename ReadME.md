@@ -64,3 +64,26 @@ Body 안에 -> 모든 content-> 모든 html 소스
 16. ul,ol<br>
     -> ul : unordered list -> 점이 생김 -> 정렬 하지않은 리스트
     -> ol : ordered list -> 숫자 생김 - > 정렬 리스트
+
+<h2>2.Lesson 2021.06.18</h2>
+1.  주석처리<br>
+    -> //, /**/ 두개 방식
+
+2. id속성<br>
+   -> #id -> 고유한 값
+
+3. table 속성<br>
+   -> tr : 행
+   -> td : 쌍, 데이터 값(이름,나이,이메일)
+   -> th : 가운데 정렬, 볼드체로 바꿔준다. 제목으로 사용하려면 th
+
+4. padding 속성<br>
+   -> padding(top,right,bottom,left) : 시계방향으로 1px 1px 1px 1px 이런식으로 설정가능
+   -> padding : 10px 20px -> 상하 10px 좌우 20px
+
+5. dl,dt,dd 속성 <br>
+   -> dl 태그안에 : dt 제목 : dd 설명
+   -> ex) dt : html dd: 웹 페이지를 위한 마크업 언어
+
+6. form 속성<br>
+   ->
