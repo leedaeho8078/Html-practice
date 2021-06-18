@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      tr,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+      }
+      tr>td:nth-child(1),td:nth-child(3){
+          background-color: pink;
+          text-align: center;
+          font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table style="width: 100%">
+      <tr>
+        <td>사용자 ID</td>
+        <td  colspan="3">
+          <input type="text" name="" id="" />
+          <input type="button" value="ID중복확인" />
+        </td>
+        <!-- <td>3</td> -->
+        <!-- <td>4</td> -->
+      </tr>
+      <tr>
+        <td>비밀번호</td>
+        <td><input type="password" name="" id="" /></td>
+        <td>비밀번호 확인</td>
+        <td><input type="password" name="" id="" /></td>
+      </tr>
+      <tr>
+        <td>사용자 이름</td>
+        <td colspan="3"><input type="text" name="" id="" /></td>
+        <!-- <td colspan="2"></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr>
+        <td>주민등록번호</td>
+        <td colspan="3">
+          <div>
+            <input type="text" name="" id="" />
+            <span>-</span>
+            <input type="password" name="" id="" />
+          </div>
+        </td>
+        <!-- <td>3</td> -->
+        <!-- <td>4</td> -->
+      </tr>
+      <tr>
+        <td>생년월일</td>
+        <td><input type="text" name="" id="" /></td>
+        <td>성별</td>
+        <td>
+          <input type="radio" name="rdo_program_lang" id="rdo_html" />
+          <label for="rdo_html">남자</label>
+          <input type="radio" name="rdo_program_lang" id="rdo_css" />
+          <label for="rdo_css">여자</label>
+        </td>
+      </tr>
+      <tr>
+        <td>우편번호</td>
+        <td colspan="3">
+          <div>
+            <input type="text" name="" id="" />
+            <span>-</span>
+            <input type="password" name="" id="" />
+            <input type="button" value="우편번호 검색" />
+          </div>
+        </td>
+        <!-- <td>3</td> -->
+        <!-- <td>4</td> -->
+      </tr>
+      <tr>
+        <td>주소</td>
+        <td colspan="3"><input type="text" style="width:50%" name="" id="" /></td>
+        <!-- <td></td> -->
+        <!-- <td></td> -->
+      </tr>
+      <tr>
+        <td>나머지 주소</td>
+        <td colspan="3"><input type="text" name="" id="" /></td>
+        <!-- <td>3</td> -->
+        <!-- <td>4</td> -->
+      </tr>
+      <tr>
+        <td>E-mail</td>
+        <td colspan="3">
+          <div>
+            <input type="text" name="" id="" />
+            <span>@</span>
+            <select name="" value="">
+              <option>선택해주세요</option>
+            </select>
+          </div>
+        </td>
+        <!-- <td>3</td> -->
+        <!-- <td>4</td> -->
+      </tr>
+      <tr>
+        <td>직업</td>
+        <td colspan="3">  <select name="" value="">
+            <option>컵퓨터/정보통신</option></td>
+        <!-- <td>3</td> -->
+        <!-- <td>4</td> -->
+      </tr>
+      <tr>
+      <td style="background-color: white" colspan="4"> 
+          <input type="button" value="등록" />
+        <input type="button" value="취소" /></td>
+      <!-- <td >  <select name="" value="">
+          <option>컵퓨터/정보통신</option></td> -->
+      <!-- <td>3</td> -->
+      <!-- <td>4</td> -->
+    </tr>
+    </table>
+  </body>
+</html>

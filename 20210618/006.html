@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      div {
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="">
+      <label for="">사용자 ID</label>
+      <!-- 텍스트 -->
+      <input type="text" name="" id="" maxlength="6" autocomplete="on" /><br />
+
+      <!-- 체크박스 -->
+      <input
+        type="checkbox"
+        name="program_lang"
+        id="chk_html"
+        disabled
+        checked
+      />
+      <label for="chk_html">Html</label>
+      <input type="checkbox" name="program_lang" id="chk_css" />
+      <label for="chk_css">Css</label>
+
+      <label
+        ><input type="checkbox" name="program_lang" id="" /> 자바스크립트</label
+      >
+      <!-- 컬러 팔레트 -->
+      <div>
+        <input type="color" name="" id="" />
+      </div>
+      <!-- 날짜 달력 -->
+      <div>
+        <input type="date" name="" id="" />
+      </div>
+      <!-- 날짜 달력 + 지금시간 -->
+      <div>
+        <input type="datetime-local" name="" id="" />
+      </div>
+      <!-- 이메일 -->
+      <div>
+        <label for="">이메일</label>
+        <input
+          type="email"
+          name=""
+          id=""
+          placeholder="abc@ddd.com 형식으로 입력하세여"
+        />
+      </div>
+      <!-- 파일첨부 -->
+      <div>
+        <input type="file" name="" id="" multiple />
+      </div>
+      <!-- 이미지 -->
+      <div>
+        <input type="image" src="" alt="" />
+      </div>
+      <!-- 년월 -->
+      <div><input type="month" name="" id="" /></div>
+      <!-- 넘버 -->
+      <div>
+        <input type="number" name="" id="" />
+      </div>
+      <!-- 비밀번호 -->
+      <div>
+        <input type="password" name="" id="" />
+      </div>
+
+      <!-- 라디오버튼 -->
+      <div>
+        <input type="radio" name="rdo_program_lang" id="rdo_html" />
+        <label for="rdo_html">Html</label>
+        <input type="radio" name="rdo_program_lang" id="rdo_css" checked />
+        <label for="rdo_css">Css</label>
+
+        <label
+          ><input type="radio" name="rdo_program_lang" id="" />
+          자바스크립트</label
+        >
+      </div>
+      <!-- 레인지-볼륨조절 -->
+      <div>
+        <input type="range" name="" id="" min="0" max="50" />
+      </div>
+
+      <!-- 서치 -->
+      <div>
+        <input type="search" name="" id="" />
+      </div>
+
+      <!-- 전화번호 -->
+      <div>
+        <input type="tel" name="" id="" pattern="[0-9]{3}-[0-9]{4}-[0-9]{4}" />
+      </div>
+
+      <!-- time -->
+      <div>
+        <input type="time" name="" id="" />
+      </div>
+      <!-- URL -->
+      <div>
+        <input type="url" name="" id="" value="https://google.com" readonly />
+      </div>
+      <!-- Week -->
+      <div>
+        <input type="week" name="" id="" />
+      </div>
+      <!-- textArea -->
+      <div>
+        <textarea name="" id="" style="width: 100%" rows="10"></textarea>
+      </div>
+
+      <!-- 버튼 -->
+      <button type="button">조회</button>
+      <input type="button" value="저장" />
+    </form>
+  </body>
+</html>
