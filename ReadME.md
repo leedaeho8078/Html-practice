@@ -24,7 +24,7 @@ Body 안에 -> 모든 content-> 모든 html 소스
 
 4. img태그<br>
    -> img 불러오는 태그, 종료 태그가 없다, alt 속성->사진이 안보이는 경우 대체, 잘 작성하지 않음
-   -> css를 구성하는 방법 중 1) style을 태그안에 -> inline 속성
+   -> css를 구성하는 방법 중 1) style을 태그안에 -> inline 속성 2) internal 속성 3) external 속성
 
 5. br태그<br>
    -> 닫는 태그가 없다. 줄바꿈 용
