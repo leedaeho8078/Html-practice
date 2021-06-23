@@ -87,4 +87,7 @@ Body 안에 -> 모든 content-> 모든 html 소스
 
 6. form 속성<br>
    ->
+```jsx
 var num1 = 10;
+
+```
